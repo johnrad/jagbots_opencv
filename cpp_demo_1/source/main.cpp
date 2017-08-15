@@ -47,6 +47,11 @@ int main(int argc, char** argv)
 	imshow("Hello OpenCV", displayImage);
 	waitKey(0);
 
+	/*
+	The following "show green" and "show red" sections are literally just for show,
+	and can probably be removed without any major effect on the program functionality itself.
+	*/
+	
 	//Show green
 	printTopText(displayImage, cv::String("Extracting green color layer..."));
 	for (y = 0; y < inputImage.rows; y++) {
