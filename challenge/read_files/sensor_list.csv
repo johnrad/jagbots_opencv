@@ -1,0 +1,5 @@
+bear_sensor,bears.csv
+widget,xk1.csv
+ultrasonic_sensor,ultrasonic_sensor.csv
+ego_sensor,ego_readings.csv
+heat_gauge,temp_data.csv
