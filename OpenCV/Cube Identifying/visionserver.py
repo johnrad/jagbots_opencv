@@ -53,7 +53,7 @@ class CamHandler(BaseHTTPRequestHandler):
 					jpg.save(self.wfile,'JPEG')
 					time.sleep(0.05)
 				except IOError:
-                                        print('Error captured')
+                	print('Error captured IOError')
                                         
                                        
 				except KeyboardInterrupt:
@@ -102,6 +102,7 @@ def main():
                 
                 server.socket.close()
 	except KeyboardInterrupt:
+		print('MAIN KI')
 		capture.release()
 		
 		server.socket.close()
