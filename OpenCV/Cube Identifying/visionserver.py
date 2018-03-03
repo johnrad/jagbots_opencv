@@ -30,7 +30,7 @@ class CamHandler(BaseHTTPRequestHandler):
 			self.send_response(200)
 			self.send_header('Content-type','multipart/x-mixed-replace; boundary=--jpgboundary')
 			self.end_headers()
-			while(True):
+			while True:
 				try:
 					rc,raw_cap = capture.read()
 					if not rc:
@@ -58,13 +58,11 @@ class CamHandler(BaseHTTPRequestHandler):
                                        
 				except KeyboardInterrupt:
 					break
-                print('returning from mjpg')
+                 print('returning from mjpg')
 
 			return
-
-
 		    
-		elif self.path.endswith('.html'):
+		if self.path.endswith('.html'):
 			self.send_response(200)
 			self.send_header('Content-type','text/html')
 			self.end_headers()
@@ -73,10 +71,6 @@ class CamHandler(BaseHTTPRequestHandler):
 			self.wfile.write('</body></html>')
                         
 			return
-
-
-		else:
-			print('Error occured in infinite loop attempt')
 
 
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
