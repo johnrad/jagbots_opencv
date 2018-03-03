@@ -58,7 +58,7 @@ class CamHandler(BaseHTTPRequestHandler):
                                        
 				except KeyboardInterrupt:
 					break
-                 print('returning from mjpg')
+                print('returning from mjpg')
 
 			return
 		    
