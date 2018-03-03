@@ -54,7 +54,7 @@ class CamHandler(BaseHTTPRequestHandler):
 					time.sleep(0.05)
 				except IOError:
 					print('Error captured IOError')
-                                        
+					return                     
                                        
 				except KeyboardInterrupt:
 					break
