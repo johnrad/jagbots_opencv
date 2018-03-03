@@ -135,9 +135,9 @@ class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
 def main():
 	global capture
 	capture = cv2.VideoCapture(0)
-	capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320); 
-	capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 240);
-	capture.set(cv2.CAP_PROP_SATURATION,0.2);
+	#capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320); 
+	#capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 240);
+	#capture.set(cv2.CAP_PROP_SATURATION,0.2);
 	global img
 	try:
 		server = ThreadedHTTPServer(('10.46.38.154', 1181), CamHandler)
