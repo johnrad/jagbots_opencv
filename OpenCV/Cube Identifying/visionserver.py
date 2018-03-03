@@ -57,10 +57,12 @@ class CamHandler(BaseHTTPRequestHandler):
 					return                     
                                        
 				except KeyboardInterrupt:
+					return
 					break
+
                 print('returning from mjpg')
 
-			return
+			
 		    
 		if self.path.endswith('.html'):
 			self.send_response(200)
