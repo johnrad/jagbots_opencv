@@ -60,7 +60,8 @@ class CamHandler(BaseHTTPRequestHandler):
 				except KeyboardInterrupt:
 					print('KI Error')
 					break
-				print('returning from mjpg')
+			return
+				#print('returning from mjpg')
 
 			
 		    
