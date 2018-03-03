@@ -75,6 +75,10 @@ class CamHandler(BaseHTTPRequestHandler):
                         
 			return
 
+		else:
+			print('An else scenario has occurred')
+			return
+
 
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
 	"""Handle requests in a separate thread."""
