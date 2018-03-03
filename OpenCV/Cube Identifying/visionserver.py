@@ -60,7 +60,7 @@ class CamHandler(BaseHTTPRequestHandler):
 					break
                 print('returning from mjpg')
 
-			return
+				return
 
 		else:
 			print('waiting at mjpg')
