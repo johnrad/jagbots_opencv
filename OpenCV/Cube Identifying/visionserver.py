@@ -60,12 +60,11 @@ class CamHandler(BaseHTTPRequestHandler):
 					break
                 print('returning from mjpg')
 
-				return
+			return
 
-		else:
-			print('waiting at mjpg')
+
 		    
-		if self.path.endswith('.html'):
+		elif self.path.endswith('.html'):
 			self.send_response(200)
 			self.send_header('Content-type','text/html')
 			self.end_headers()
@@ -74,9 +73,10 @@ class CamHandler(BaseHTTPRequestHandler):
 			self.wfile.write('</body></html>')
                         
 			return
-		else:
-			print('waiting at html')
 
+
+		else:
+			print('Error occured in infinite loop attempt')
 
 
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
