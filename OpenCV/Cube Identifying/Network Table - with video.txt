@@ -1,0 +1,229 @@
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\james\OneDrive\Robotics\Programming\Code\Python\OpenCV\py_nt_listener.py 
+INFO:nt:NetworkTables initialized in client mode
+DEBUG:nt.th:Started thread nt-dispatch-thread-0
+DEBUG:nt.th:Started thread nt-client-thread-0
+DEBUG:nt.th:Started thread entry-notifier-0
+DEBUG:nt:client connected
+DEBUG:nt.th:Started thread nt-net-write-0
+DEBUG:nt.th:Started thread nt-net-read-0
+INFO:nt:CONNECTED 10.46.38.2 port 1735 (10.46.38.2)valueChanged: key: '/CameraPublisher/Camera/source'; value: usb:IMAQdx/cam2; isNew: True
+
+valueChanged: key: '/CameraPublisher/Camera/streams'; value: ('mjpg:http://roborio-4638-frc:1181/stream.mjpg?name=Camera', 'mjpg:http://10.46.38.2:1181/stream.mjpg?name=Camera'); isNew: True
+valueChanged: key: '/SmartDashboard/Auto List'; value: ('Alternative 1', 'Alternative 2'); isNew: True
+valueChanged: key: '/SmartDashboard/Auto Selector'; value: Select Autonomous ...; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Button 0'; value: False; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Button 1'; value: False; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Button 2'; value: False; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Button 3'; value: False; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Button Names'; value: ('New Name',); isNew: True
+valueChanged: key: '/SmartDashboard/DB/Slider 0'; value: 0.0; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Slider 1'; value: 0.0; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Slider 2'; value: 0.0; isNew: True
+valueChanged: key: '/SmartDashboard/DB/Slider 3'; value: 0.0; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 0'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 1'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 2'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 3'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 4'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 5'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 6'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 7'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 8'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/DB/String 9'; value: ; isNew: True
+valueChanged: key: '/SmartDashboard/Joystick 0/Axes'; value: (); isNew: True
+valueChanged: key: '/SmartDashboard/Joystick 0/Buttons'; value: (); isNew: True
+valueChanged: key: '/SmartDashboard/RobotDrive Motors'; value: (-0.0, 0.0); isNew: True
+valueChanged: key: '/Usage/Client//Count'; value: 19.0; isNew: True
+valueChanged: key: '/Usage/Client//KBytes Transmitted'; value: 24.234375; isNew: True
+valueChanged: key: '/Usage/Client//Kbps'; value: 3.3944223107569718; isNew: True
+valueChanged: key: '/Usage/Client//Reads'; value: 2813.0; isNew: True
+valueChanged: key: '/Usage/Client//ReadsPS'; value: 63.745019920318725; isNew: True
+valueChanged: key: '/Usage/Client//Updates'; value: 1073.0; isNew: True
+valueChanged: key: '/Usage/Client//UpdatesPS'; value: 21.91235059760956; isNew: True
+valueChanged: key: '/Usage/Client//Writes'; value: 711.0; isNew: True
+valueChanged: key: '/Usage/Client//WritesPS'; value: 17.92828685258964; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/Count'; value: 72.0; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 130.234375; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 2.810379241516966; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23111.0; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 93.812375249501; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6065.0; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 11.976047904191617; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4167.0; isNew: True
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 17.964071856287426; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/Count'; value: 62.0; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 215.6259765625; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 2.7888446215139444; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/Reads'; value: 252.0; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/ReadsPS'; value: 0.0; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3524.0; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 13.944223107569721; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5461.0; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.91235059760956; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/Count'; value: 53.0; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/KBytes Transmitted'; value: 74.0810546875; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/Kbps'; value: 11.065868263473055; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/Reads'; value: 510.0; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/ReadsPS'; value: 0.0; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/Updates'; value: 1005.0; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/UpdatesPS'; value: 15.968063872255488; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/Writes'; value: 3393.0; isNew: True
+valueChanged: key: '/Usage/Server/172.22.11.2/WritesPS'; value: 21.956087824351297; isNew: True
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5472.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3529.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 218.6005859375; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 48.638722554890215; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.956087824351297; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 9.980039920159681; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23159.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4176.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6071.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 130.37890625; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 2.363273453093812; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 95.80838323353294; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5483.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3535.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 219.0048828125; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 6.584493041749504; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.868787276341948; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 11.928429423459244; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23206.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4185.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6083.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 130.61328125; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 3.832335329341317; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 93.812375249501; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 23.952095808383234; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5492.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3542.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 219.4501953125; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.252485089463221; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 17.892644135188867; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 13.916500994035784; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23253.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4194.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6096.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 130.8740234375; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 4.263473053892215; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 25.948103792415168; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5503.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3548.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 219.8544921875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 6.597609561752988; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.91235059760956; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 11.952191235059761; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23302.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4203.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6108.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 131.1083984375; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 3.832335329341317; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 97.80439121756487; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 23.952095808383234; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5514.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3555.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 220.2998046875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.238095238095239; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.825396825396826; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 13.88888888888889; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23348.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4212.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6121.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 131.369140625; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 4.254980079681276; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 91.63346613545816; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 17.92828685258964; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 25.89641434262948; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5525.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3563.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 220.7841796875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.904382470119522; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.91235059760956; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 15.936254980079681; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23396.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4221.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6135.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 131.65625; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 4.675944333996025; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 95.42743538767395; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 17.892644135188867; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 27.83300198807157; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5536.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3571.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 221.26953125; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.920318725099602; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23441.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4230.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6149.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 131.943359375; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 4.685258964143427; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 89.64143426294821; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 17.92828685258964; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 27.888446215139442; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5547.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3579.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 221.69921875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 6.998011928429423; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.868787276341948; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 15.904572564612327; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23496.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4239.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6161.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 132.205078125; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 3.5673876871880204; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 91.51414309484193; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 14.975041597337771; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 19.966722129783694; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5556.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3587.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 222.185546875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.952095808383233; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 17.964071856287426; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 15.968063872255488; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23542.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4248.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6175.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 132.4921875; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 4.675944333996025; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 91.45129224652088; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 17.892644135188867; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 27.83300198807157; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5567.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3595.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 222.669921875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.920159680638722; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.956087824351297; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23588.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4257.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6189.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 132.779296875; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5578.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3599.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 222.9677734375; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 4.841269841269841; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.825396825396826; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 7.936507936507937; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23645.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4266.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6204.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 133.0244140625; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 3.346666666666667; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 95.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 15.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 25.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Writes'; value: 5589.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Updates'; value: 3607.0; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/KBytes Transmitted'; value: 223.453125; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/Kbps'; value: 7.904572564612327; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/WritesPS'; value: 21.868787276341948; isNew: False
+valueChanged: key: '/Usage/Server/10.46.38.2/UpdatesPS'; value: 15.904572564612327; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Reads'; value: 23693.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Writes'; value: 4275.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Updates'; value: 6218.0; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/KBytes Transmitted'; value: 133.3115234375; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/Kbps'; value: 4.6946107784431135; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/ReadsPS'; value: 95.80838323353294; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/WritesPS'; value: 17.964071856287426; isNew: False
+valueChanged: key: '/Usage/Client/Dashboard/UpdatesPS'; value: 27.944111776447105; isNew: False

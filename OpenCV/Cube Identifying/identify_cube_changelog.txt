@@ -1,0 +1,63 @@
+Cube Identification v 4.5.7
+Changes since 3.0
+Added distance calculation
+Added Degrees calculation
+Switched from arctan to arcsin
+Corrected pixel vs inch errors
+Renamed 'Frame' to 'Final Output'
+Added camera selection prompt
+Tweaked color filter
+
+
+Cube Identifying Algorithm Release Notes
+Last updated 01.31.2018
+Coded for Jagbots FRC 4638 by James Radko
+
+Required programs:
+Python (3.6)
+	- OpenCV (3.x.x)
+	- NumPy
+
+########################
+#                      #
+#      Highlights      #
+#                      #
+########################
+
+The program uses a mix of OpenCV, Python, and Numpy functions in the following order:
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! SOME THINGS ARE MISSING FROM THIS DESCRIPTION !!!
+!!! SUCH AS DRAWING CROSSHAIRS AND TEXT, WHICH IS !!!
+!!! NOT USED TO ACTUALLY COMPUTE ANY OF THE VALUE !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Before running, constants are set to allow distance measuring. The following are set:
+constant_height_pixels = 256
+constant_distance = 36
+cube_height = 11
+
+1. Confirms intended webcam. Integrated/default = 0. Only enter 1 if two cameras are connected.
+2. Calculate the center of the image by measuring width and height, dividing by 2, and placing lines through it.
+3. Captures video
+4. Converts from BGR to HSV
+5. Applies a blur to blend colors, making contours smooth and consistent
+	- also removes noise
+6. Applies a mask to the blurred image
+7. Split HSV into three channels, H, S, V
+	- V is grayscale
+8. Apply a threshold to the image - a pixel is either black or white, no gradients
+9. Find contours on the thresholded image
+10. Calculate the coordinates and size of the rectangle required to enclose the biggest contour
+11. Draw the rectangle onto the frame
+12. Find the center of the cube, using the x, y, w, h values
+13. Calculate the pixel to inch ratio, p, by dividing the cube height in pixels by the actual cube height
+14. Convert delta_x to inches by dividing by p
+15. Calculate focal length, using a specialized formula
+16. Calculate distance to the target, using a specialized formula (involving focal length)
+17. Calculate the angle using arcsin
+18. Display the final output
+
+That's it!
+
+The outputted data is currently all in Inches and Degrees, however I can convert as needed.
