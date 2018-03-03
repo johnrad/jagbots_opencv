@@ -35,6 +35,7 @@ class CamHandler(BaseHTTPRequestHandler):
 					rc,raw_cap = capture.read()
 					if not rc:
 						continue
+						
 					    #refresh frame
 					returned = cube_finder.process_image(raw_cap)
 					img = getattr(returned,'frame')
@@ -57,10 +58,10 @@ class CamHandler(BaseHTTPRequestHandler):
 					return                     
                                        
 				except KeyboardInterrupt:
+					print('KI Error')
 					return
-					
-
-                print('returning from mjpg')
+					break
+				print('returning from mjpg')
 
 			
 		    
